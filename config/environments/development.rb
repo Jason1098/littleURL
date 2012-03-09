@@ -34,4 +34,8 @@ LittleURL::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  #devise required 
+    config.action_mailer.defaul_url_options = { :host => 'localhost:3000'}
+
 end
